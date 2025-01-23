@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Computer Practicals</title>
+        <!--Bootstrap links-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+        <!--Linking-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <div class="header-container">
+                <h1>Language Buddy</h1>
+                <img src="logo.jpg" alt="Logo" width="50px" height="50px">
+            </div>
+            <h3>Phrases</h3>
+            <p>Learn phrases is diffrent languages!</p>
+            <table>
+                <tr id="headerpart">
+                    <th>Language</th>
+                    <th>Hello</th>
+                    <th>How are you?</th>
+                    <th>Please</th>
+                    <th>Goodbye</th>
+                </tr>
+                <tr id="spanishpart">
+                    <th rowspan="5">Spanish <br><br> French <br><br> Japanese <br><br> Italian <br><br> German</th>
+                    <td>Hola</td>
+                    <td>Cómo estás?</td>
+                    <td>Por favor</td>
+                    <td>Adiós</td>
+                </tr>
+                <tr id="frenchpart">
+                    <td>Bonjour</td>
+                    <td>Comment ça va?</td>
+                    <td>S'il vous plaît</td>
+                    <td>Au Revoir</td>
+                </tr>
+                <tr id="japanesepart">
+                    <td>こんにちは [Kon'nichiwa]</td>
+                    <td>元気ですか？ [Genkidesu ka?]</td>
+                    <td>お願いします [Onegaishimasu]</td>
+                    <td>さようなら [Sayōnara]</td>
+                </tr>
+                <tr id="italianpart">
+                    <td>Ciao</td>
+                    <td>Come stai?</td>
+                    <td>Per favore</td>
+                    <td>Arrivederci</td>
+                </tr>
+                <tr id="germanpart">
+                    <td>Hallo</td>
+                    <td>Wie geht es dir?</td>
+                    <td>Bitte</td>
+                    <td>Auf wiedersehen</td>
+                </tr>
+            </table>
+            <br>
+            <img src="languages.png" height="400px">
+            <br>
+            <button class="text-info" onclick="quizzes()">Quizzes</button>
+            <button class="text-info" onclick="home()">Home</button>
+        </center>
+    </body>
+</html>

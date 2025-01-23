@@ -1,0 +1,20 @@
+body{
+    background-color: #283256;
+    color: white;
+    font-family: 'Sedan SC', serif;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-container h1 {
+    margin-right: 10px; /* Space between text and image */
+}
+.header-container img {
+    vertical-align: middle;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
